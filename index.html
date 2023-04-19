@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee Việt Nam</title>
+    <script src="https://kit.fontawesome.com/0634ae970e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <nav class="nav__bar">
+        <div class="nav__bar-top">
+            <ul class="nav__bar-top-list">
+                <li class="nav__bar-top-item">
+                    <a href="">Kênh Người Bán</a>
+                </li>
+                <li class="nav__bar-top-item">
+                    <a href="">Trở thành Người bán Shopee</a>
+                </li>
+                <li class="nav__bar-top-item">
+                    <a href="">Tải ứng dụng</a>
+                </li>
+                <li class="nav__bar-top-item">
+                    <div class="connect">
+                        <a href="">Kết nối</a>
+                        <div class="nav__bar-icon">
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+            <ul class="nav__bar-top-list">
+                <li class="nav__bar-top-item notification">
+                    <i class="fa fa-bell icon"></i>
+                    <a href="">Thông báo</a>
+                    <div class="notification-block">
+                        <div class="notification-top">
+                            <img src="./img/noti.png" alt="" srcset="">
+                        </div>
+                        <div class="notification-bottom">
+                            <span class="noti-link"><a href="" class="account">Đăng Ký</a></span>
+                            <span class="noti-link"><a href="" class="account">Đăng Nhập</a></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav__bar-top-item">
+                    <svg height="16" viewBox="0 0 16 16" width="16" class="shopee-svg-icon icon-help-center icon"><g fill="none" fill-rule="evenodd" transform="translate(1)"><circle cx="7" cy="8" r="7" stroke="currentColor"></circle><path fill="currentColor" d="m6.871 3.992c-.814 0-1.452.231-1.914.704-.462.462-.693 1.089-.693 1.892h1.155c0-.484.099-.858.297-1.122.22-.319.583-.473 1.078-.473.396 0 .715.11.935.33.209.22.319.517.319.902 0 .286-.11.55-.308.803l-.187.209c-.682.605-1.1 1.056-1.243 1.364-.154.286-.22.638-.22 1.045v.187h1.177v-.187c0-.264.055-.506.176-.726.099-.198.253-.396.462-.572.517-.451.825-.737.924-.858.275-.352.418-.803.418-1.342 0-.66-.22-1.188-.66-1.573-.44-.396-1.012-.583-1.716-.583zm-.198 6.435c-.22 0-.418.066-.572.22-.154.143-.231.33-.231.561 0 .22.077.407.231.561s.352.231.572.231.418-.077.572-.22c.154-.154.242-.341.242-.572s-.077-.418-.231-.561c-.154-.154-.352-.22-.583-.22z"></path></g></svg>
+                    <a href="">Hỗ Trợ</a>
+                </li>
+                <li class="nav__bar-top-item language">
+                    <svg class="icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.00065 14.6667C11.6825 14.6667 14.6673 11.6819 14.6673 8.00004C14.6673 4.31814 11.6825 1.33337 8.00065 1.33337C4.31875 1.33337 1.33398 4.31814 1.33398 8.00004C1.33398 11.6819 4.31875 14.6667 8.00065 14.6667Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5.33464 8.00004C5.33464 11.6819 6.52854 14.6667 8.0013 14.6667C9.47406 14.6667 10.668 11.6819 10.668 8.00004C10.668 4.31814 9.47406 1.33337 8.0013 1.33337C6.52854 1.33337 5.33464 4.31814 5.33464 8.00004Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1.33398 8H14.6673" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                    <a href="">Tiếng Việt</a>
+                    <svg style="color: #fff;" viewBox="0 0 12 12" fill="none" width="12" height="12" color="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M6 8.146L11.146 3l.707.707-5.146 5.147a1 1 0 01-1.414 0L.146 3.707.854 3 6 8.146z" fill="currentColor"></path></svg>
+                    <div class="language-item">
+                        <span><a href="" class="language-link vietnamese">Tiếng Việt</a></span>
+                        <span><a href="" class="language-link english">English</a></span>
+                    </div>
+                </li>
+                <li class="nav__bar-top-item">
+                    <a href="">Đăng Ký</a>
+                </li>
+                <li class="nav__bar-top-item">
+                    <a href="">Đăng Nhập</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav__bar-center">
+            <div class="nav__bar-logo">
+                <a href="index.html"><img src="./img/logo_shop.png" alt="" srcset=""></a>
+            </div>
+            <div class="nav__bar-search">
+                <div class="nav__search">
+                    <input type="text" name="search" id="search" placeholder="      Voucher lấy sớm - giảm đến 150k">
+                    <button class="btn-search"><svg height="14" viewBox="0 0 19 19" width="14" class="shopee-svg-icon search_icon"><g fill-rule="evenodd" stroke="none" stroke-width="1"><g transform="translate(-1016 -32)"><g><g transform="translate(405 21)"><g transform="translate(611 11)"><path d="m8 16c4.418278 0 8-3.581722 8-8s-3.581722-8-8-8-8 3.581722-8 8 3.581722 8 8 8zm0-2c-3.3137085 0-6-2.6862915-6-6s2.6862915-6 6-6 6 2.6862915 6 6-2.6862915 6-6 6z"></path><path d="m12.2972351 13.7114222 4.9799555 4.919354c.3929077.3881263 1.0260608.3842503 1.4141871-.0086574.3881263-.3929076.3842503-1.0260607-.0086574-1.414187l-4.9799554-4.919354c-.3929077-.3881263-1.0260608-.3842503-1.4141871.0086573-.3881263.3929077-.3842503 1.0260608.0086573 1.4141871z"></path></g></g></g></g></g></svg></button>
+                </div>
+                <div class="nav__option-block">
+                    <ul class="nav__option">
+                        <li class="nav__option-item">
+                            <a href="">Dép</a>
+                        </li>
+                        <li class="nav__option-item">
+                            <a href="">Áo Phông</a>
+                        </li>
+                        <li class="nav__option-item">
+                            <a href="">Váy</a>
+                        </li>
+                        <li class="nav__option-item">
+                            <a href="">Túi Xách Nữ</a>
+                        </li>
+                        <li class="nav__option-item">
+                            <a href="">Áo Croptop</a>
+                        </li>
+                        <li class="nav__option-item">
+                            <a href="">Áo Khoác</a>
+                        </li>
+                        <li class="nav__option-item">
+                            <a href="">Áo Thun</a>
+                        </li>
+                        <li class="nav__option-item">
+                            <a href="">Ốp iPhone</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <span class="nav__shopping-cart">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <div class="shopping__cart-block">
+                        <img src="./img/shoppingcart.png" alt="">
+                    </div>
+                </span>
+
+        </div>
+    </nav>
+    <div class="empty"></div>
+    <main class="main__wrapper">
+        <div class="main__wrapper-content">
+            <div class="main__banner">
+                <div class="main__slide-show">
+                    <div class="display__slide">
+                        <div class="slide-item">
+                            <img src="./img/slideshow_1.png" alt="" srcset="">
+                        </div>
+                        <div class="slide-item">
+                            <img src="./img/slideshow_5.png" alt="" srcset="">
+                        </div>
+                        <div class="slide-item">
+                            <img src="./img/slideshow_3.png" alt="" srcset="">
+                        </div>
+                        <div class="slide-item">
+                            <img src="./img/slideshow_4.png" alt="" srcset="">
+                        </div>
+                        <div class="slide-item">
+                            <img src="./img/slideshow_5.png" alt="" srcset="">
+                        </div>
+                        <div class="slide-item">
+                            <img src="./img/slideshow_6.png" alt="" srcset="">
+                        </div>
+                        <div class="slide-item">
+                            <img src="./img/slideshow_7.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <div class="main__banner-item">
+                    <img src="./img/banner.png" alt="Banner giới thiệu sản phẩm" srcset="">
+                    <img src="./img/banner_.png" alt="Banner quảng cáo">
+                </div>
+            </div>
+            <div class="main__option">
+                <div class="option__item">
+                    <img src="./img/op_1.png" alt="" srcset="">
+                    <p>Bảo vệ sức khỏe</p>
+                </div>
+                <div class="option__item">
+                    <a href=""> <img src="./img/op_2.png" alt="" srcset="">
+                    </a>
+                    <p>Gì Cũng Rẻ - Mua Là Freeship</p>
+                </div>
+                <div class="option__item">
+                    <a href=""> <img src="./img/op_3.png" alt="" srcset="">
+                    </a>
+                    <p>Khung Giờ Săn Sale</p>
+                </div>
+                <div class="option__item">
+                    <a href=""> <img src="./img/op_4.png" alt="" srcset="">
+                    </a>
+                    <p>Freeship Xtra</p>
+                </div>
+                <div class="option__item">
+                    <a href=""> <img src="./img/op_5.png" alt="" srcset="">
+                    </a>
+                    <p>Hoàn Xu Xtra</p>
+                </div>
+                <div class="option__item">
+                    <a href=""> <img src="./img/op_6.png" alt="" srcset="">
+                    </a>
+                    <p>Hàng Hiệu -50%</p>
+                </div>
+                <div class="option__item">
+                    <a href=""><img src="./img/op_7.png" alt="" srcset=""></a>
+                    <p>Hàng Quốc Tế & Đại Tiệc Xả Hàng</p>
+                </div>
+                <div class="option__item">
+                    <a href=""> <img src="./img/op_8.png" alt="" srcset=""></a>
+                    <p>Deal Sốc Từ 1K</p>
+                </div>
+                <div class="option__item">
+                    <a href=""><img src="./img/op_9.png" alt="" srcset=""></a>
+                    <p>Nạp Thẻ & Dịch Vụ</p>
+                </div>
+            </div>
+        </div>
+        <div class="main__category-wrapper">
+            <div class="main__category">
+                <span class="category__title"><p>DANH MỤC</p></span>
+                <div class="line"></div>
+                <input type="checkbox" name="input__next" id="input__next" hidden>
+
+                <div class="btn button-pre">
+                    <label for="input__next">
+                        <i class="fa fa-chevron-left"></i>
+                    </label>
+                </div>
+                <!-- <div class="category-display"> -->
+                <div class="category-list">
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_1.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_2.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_3.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_4.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_5.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_6.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_7.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_8.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_9.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_10.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_1_1.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_1_2.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_1_3.png" alt="" srcset="">
+                        </a>
+                    </div>
+                </div>
+                <div class="category-list">
+
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_11.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_12.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_13.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_14.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_15.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_16.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_17.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_18.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_19.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_20.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_2_1.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_2_2.png" alt="" srcset="">
+                        </a>
+                    </div>
+                    <div class="category-item">
+                        <a href=""> <img src="./img/c_2_3.png" alt="" srcset="">
+                        </a>
+                    </div>
+
+                </div>
+                <!-- </div> -->
+                <div class="btn button-next">
+                    <label for="input__next" class="next">
+                        <i class="fa fa-chevron-right"></i>
+                    </label>
+                </div>
+
+            </div>
+        </div>
+        <div class="flash__sale-wrapper">
+            <div class="flash__sale-content">
+                <div class="flash__sale-top">
+                    <div class="flash__sale-top-item">
+                        <div class="flash__sale-logo">
+                            <img src="./img/flashsale.png" alt="">
+                        </div>
+                        <div class="watch">
+                            <span id="hour">00</span>
+                            <span id="minute">00</span>
+                            <span id="second">00</span>
+                        </div>
+                    </div>
+                    <div class="flash__sale-center">
+                        <div class="flash__center-item">
+                            <a href=""> <img src="./img/f_1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="flash__center-item">
+                            <a href=""> <img src="./img/f_2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="flash__center-item">
+                            <a href=""> <img src="./img/f_3.png" alt="">
+                            </a>
+                        </div>
+                        <div class="flash__center-item">
+                            <a href=""> <img src="./img/f_4.png" alt="">
+                            </a>
+                        </div>
+                        <div class="flash__center-item">
+                            <a href=""> <img src="./img/f_5.png" alt="">
+                            </a>
+                        </div>
+                        <div class="flash__center-item">
+                            <a href=""> <img src="./img/f_6.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flash__banner-wrapper">
+                <div class="flash__banner-content">
+                    <div class="banner-item">
+                        <a href=""><img src="./img/b_1.png" alt=""></a>
+                    </div>
+                    <div class="banner-item">
+                        <a href=""><img src="./img/b_2.png" alt=""></a>
+                    </div>
+                    <div class="banner-item">
+                        <a href=""><img src="./img/b_3.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="shopee__mall-wrapper">
+                <div class="shopee__mall-content">
+                    <div class="shopee__mall-top">
+                        <span class="shopee__mall-title"><a href="">SHOPEE MALL</a></span>
+                        <div class="shopee__mall-top-list">
+                            <div class="shopee__mall-top-content">
+                                <div class="shopee__mall-top-item">
+                                    <img src="./img/icon_1.png" alt="">
+                                    <p>7 Ngày Miễn Phí Trả Hàng</p>
+                                </div>
+                                <div class="shopee__mall-top-item">
+                                    <img src="./img/icon_2.png" alt="">
+                                    <p>Hàng Chính Hãng 100%</p>
+                                </div>
+                                <div class="shopee__mall-top-item">
+                                    <img src="./img/icon_3.png" alt="">
+                                    <p>Miễn Phí Vận Chuyển</p>
+                                </div>
+                            </div>
+                            <div class="see__all"><a href="">Xem Tất Cả</a></div>
+                        </div>
+                    </div>
+                    <div class="line line_2"></div>
+
+                    <div class="shopee__mall-center">
+
+                        <div class="shopee__mall-slidedisplay">
+                            <div class="shopee__mall-slideshow">
+
+                                <div class="slideshow_mall-item">
+                                    <img src="./img/slide_1.png" alt="">
+                                </div>
+                                <div class="slideshow_mall-item">
+                                    <img src="./img/slide_2.png" alt="">
+                                </div>
+                                <div class="slideshow_mall-item">
+                                    <img src="./img/slide_3.png" alt="">
+                                </div>
+                                <div class="slideshow_mall-item">
+                                    <img src="./img/slide_4.png" alt="">
+                                </div>
+                                <div class="slideshow_mall-item">
+                                    <img src="./img/slide_5.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="shopee__mall-products">
+                            <div class="shopee__mall-products-list">
+                                <div class="shopee__mall-product-item">
+                                    <a href=""> <img src="./img/pd_1.png" alt="" srcset="">
+                                    </a>
+                                </div>
+                                <div class="shopee__mall-product-item">
+                                    <a href=""> <img src="./img/pd_2.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="shopee__mall-product-item">
+                                    <a href=""> <img src="./img/pd_3.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="shopee__mall-product-item">
+                                    <a href=""> <img src="./img/pd_4.png" alt="">
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="shopee__mall-products-list">
+                                <div class="shopee__mall-product-item">
+                                    <a href=""> <img src="./img/pd_6.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="shopee__mall-product-item">
+                                    <a href=""> <img src="./img/pd_7.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="shopee__mall-product-item">
+                                    <a href=""> <img src="./img/pd_8.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="shopee__mall-product-item">
+                                    <a href=""> <img src="./img/pd_9.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="shopee__mall-product-item">
+                                    <a href=""> <img src="./img/pd_5.png" alt="">
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="shopee__trend-wrapper">
+                <div class="shopee__trend-content">
+                    <span class="category__title"><p>XU HƯỚNG TÌM KIẾM</p></span>
+                    <div class="see__all">
+                        <svg><path d="M12 7.51268255c0-1.71021918-.7226562-3.30538371-1.9648437-4.43447938-.20507817-.18525749-.52148442-.16965686-.7070313.03315134-.18554687.20475828-.16992188.52067106.03320313.70592856C10.3984375 4.75722109 11 6.08717488 11 7.51268255c0 2.59360495-1.98242187 4.72699125-4.515625 4.96880095l.68164063-.7878318c.1796875-.2086585.15625-.5245713-.05273438-.7039785-.20898438-.1794073-.52539062-.1560063-.70507813.0526521l-1.49609375 1.7336201c-.18164062.2106086-.15625.5284714.05664063.7078787l1.65429688 1.3982065c.21093749.1774572.52539062.1521062.70507812-.0585023.17773438-.2106085.15234375-.5245712-.05859375-.7039785l-.75195313-.6357257C9.58789062 13.2205634 12 10.6484094 12 7.51268255zM2.80273438 11.3523879C1.66796875 10.4085497 1 9.0161934 1 7.51463263c0-2.75741154 2.23828125-4.99220194 5-4.99220194h.01367188l-.7734375.75078037c-.19726563.19305781-.203125.50897059-.00976563.70592855.19335938.19695797.50976563.20280821.70703125.0097504l1.64257813-1.59516453c.19921875-.19305781.20117187-.51287074.00585937-.70982871L6.06054688.14723461c-.1953125-.19500789-.51171875-.19695797-.70703125-.00195008C5.15820313.34029242 5.15625.6562052 5.3515625.85121309l.66992188.67472729H6c-3.31445312 0-6 2.68135846-6 5.99064232 0 1.8018729.80273438 3.4750406 2.16210938 4.6060863.21289062.1755071.52734375.148206.70507812-.0643526.17773438-.2164587.1484375-.5304214-.06445312-.7059285z"
+                            fill-rule="nonzero"></path></svg>
+                        <a href="">Xem Thêm</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="line"></div>
+
+        </div>
+        <div class="search__top-wrapper">
+            <div class="search__top-content">
+                <div class="search__list">
+                    <div class="search-item">
+                        <a href=""> <img src="./img/s_1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="search-item">
+                        <a href=""> <img src="./img/s_2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="search-item">
+                        <a href=""> <img src="./img/s_3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="search-item">
+                        <a href=""> <img src="./img/s_4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="search-item">
+                        <a href=""> <img src="./img/s_5.png" alt="">
+                        </a>
+                    </div>
+                    <div class="search-item">
+                        <a href=""> <img src="./img/s_6.png" alt="">
+                        </a>
+                    </div>
+                    <div class="search-item">
+                        <a href=""> <img src="./img/s_7.png" alt="">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="goiy__wrapper">
+            <div class="goiy__content">
+                <div class="goiy__top">
+                    <div class="goiy__title">
+                        <p>GỢI Ý HÔM NAY</p>
+                        <img src="./img/goiy.png" alt="">
+                    </div>
+                    <div class="goiy__list">
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_3.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_4.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_5.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_6.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="goiy__list">
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_7.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_8.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_9.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_10.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_11.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_12.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="goiy__list">
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_13.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_14.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_15.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_16.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_17.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_18.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="goiy__list">
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_19.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_20.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_21.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_22.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_23.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_24.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="goiy__list">
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_25.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_26.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_27.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_28.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_29.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_30.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="goiy__list">
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_31.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_32.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_33.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_34.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_35.png" alt="">
+                            </a>
+                        </div>
+                        <div class="goiy-item">
+                            <a href=""> <img src="./img/sp_36.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="btn__see-all-wrapper">
+            <div class="display">
+                <div class="btn__see-all-content">
+                    <button>Xem Thêm</button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </main>
+    <div class="img-fixed">
+        <img src="./img/fixed.png" alt="" srcset="">
+    </div>
+    <div class="line__footer">
+        <div class="line_main"></div>
+    </div>
+    <footer>
+        <div class="footer__wrapper">
+            <div class="footer__center">
+                <div class="footer-content">
+                    <div class="footer_title">
+                        <h3>SHOPEE - GÌ CŨNG CÓ, MUA HẾT Ở SHOPEE</h3>
+                        <p>Shopee - ứng dụng mua sắm trực tuyến thú vị, tin cậy, an toàn và miễn phí! Shopee là nền tảng giao dịch trực tuyến hàng đầu ở Đông Nam Á, Việt Nam, <a href="">Singapore</a>, <a href="">Malaysia</a>, <a href="">Indonesia</a>,
+                            <a href="">Thái Lan</a>, <a href="">Philipin</a>, <a href="">Đài loan</a> và <a href="">Brazil</a>. Với sự đảm bảo của Shopee, bạn sẽ mua hàng trực tuyến an tâm và nhanh chóng hơn bao giờ hết!</p>
+                        <div class="footer_links">
+                            <a href="">Xem Thêm<i class="fa fa-chevron-right"></i></a>
+                        </div>
+                        <div class="line"></div>
+                        <div class="category__title footer_title">
+                            Danh Mục
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>
